@@ -70,7 +70,7 @@ h3 {
     font-size: 2em;
     color: #255570;
     margin: 0 auto;
-    padding: 0 0 0.25em;
+    padding: 0.25em 0;
 }
 
 a {
@@ -84,7 +84,7 @@ p {
 
 img {
     width: 100%;
-    padding: 0 auto;
+    padding: 1em 0 0;
 }
 
 ul {
