@@ -1,0 +1,75 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" href="https://use.typekit.net/hnh2fag.css">
+            <script>
+                (function(d) {
+                  var config = {
+                    kitId: 'whu6pmb',
+                    scriptTimeout: 3000,
+                    async: true
+                  },
+                  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+                })(document);
+              </script>
+            <title>the cozy hook</title> <!-- ★ Please include a proper title.-->
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />   
+        </head>	
+
+        <body>
+            <div class="newsletter">
+                <header>
+                    <h1> <a href="index.html"> <img src="cozyhook_logo.png" alt="Logo of the cozy hook."> </a>  </h1> <!-- ★ Please use a proper alt attribute.-->
+                    
+                    <nav>
+                        <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a class="nav1" href="#">Patterns</a></li>
+                            <li><a class="nav2" href="#">Tutorials</a></li>
+                            <li><a class="nav3" href="photogallery.html">Inspiration</a></li>
+                            <li><a class="nav4" href="newsletter.html">Subscribe</a></li>
+                            <li><a class="nav5" href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                
+                <main>
+                    <form>
+                        <section class="personal-info">
+                            <h3>Personal information</h3>
+                            <ul>
+                                <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                                <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+                                <li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="your phone number" /></li>
+                            </ul>
+                         </section>
+
+                         <section class="checkbox">
+                             <h3>Interests</h3>
+                             <h4>What areas would you like to see in your newsletter?</h4>
+                             <ul>
+                                <li><input type="checkbox" id="patterns" value="patterns" /> <label for="patterns">Patterns</label></li>
+                                <li><input type="checkbox" id="tutorials" value="tutorials" /> <label for="tutorials">Tutorials</label></li>
+                                <li><input type="checkbox" id="tips-tricks" value="tips-tricks" /> <label for="tips-tricks">Tips & Tricks</label></li>
+                                <li><input type="checkbox" id="inspiration" value="inspiration" /> <label for="inspiration">Inspiration</label></li>
+                             </ul>
+                         </section>
+
+                         <section class="button">
+                            <button type="subscribe">Subscribe</button>
+                        </section>
+                     </form>
+                </main>         
+
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+            </div>
+        </body>
+    </html>
