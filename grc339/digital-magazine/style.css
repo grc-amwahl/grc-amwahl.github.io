@@ -110,25 +110,22 @@ footer {
     text-align: center;
 }
 
-.nav1 {
+.navpurple {
     color: #aba5f6;
 }
 
-.nav2{
+.navorange {
     color: #ffbd80;
 }
 
-.nav3 {
+.navpink  {
     color: #fec9d5;
 }
 
-.nav4{
+.navblue {
     color: #78c4c9;
 }
 
-.nav5{
-    color: #aba5f6;
-}
 /*main {
     background-color:#ff8;
 }
@@ -315,4 +312,59 @@ color: #255570;
         font-size: 1.7em;
         padding: 0em 0.75em;
     }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: #255570;
+    }
+
+    div.container {
+        background-color: #255570;
+    }
+
+    p {
+        color: rgb(252, 251, 245);
+    }
+
+    h1 {
+        width: 20em;
+        background-image: url("cozyhook_logo_alt.png");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+    }
+
+    h1 img{
+        opacity: 0;
+    }
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        color: rgb(252, 251, 245);
+    } 
+    h3 {
+        color:rgb(252, 251, 245);
+    }
+
+    figcaption {
+        color: rgb(252, 251, 245);
+    }
+    
+    .navpurple {
+    color: #d4d1fa;
+    }
+
+    .navorange {
+    color: #ffdebf;
+    }
+
+    .navpink  {
+    color: #fee4ea;
+    }
+
+    .navblue {
+    color: #bbe1e4;
+    }   
 }
